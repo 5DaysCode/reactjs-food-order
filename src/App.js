@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 import { useState } from "react";
 
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import CartProvider from "./store/CartProvider";
+=======
+import Header from "./components/Layout/Header";
+import Meals from "./components/Meals/Meals";
+import CartProvider from "./store/CartProvider";
+import Cart from "./components/Cart/Cart";
+>>>>>>> feat/cart
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -17,8 +24,13 @@ function App() {
 
   return (
     <CartProvider>
+<<<<<<< HEAD
       {cartIsShown && <div>Cart...</div>}
       <Header onShowCart={showCartHandler} />
+=======
+      <Cart />
+      <Header />
+>>>>>>> feat/cart
       <main>
         <Meals />
       </main>
