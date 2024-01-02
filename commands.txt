@@ -1,0 +1,35 @@
+to initiliaze project to  local  git ---- 
+ 
+
+git init
+
+
+
+- Check the status 
+
+   git status
+
+- adding the files  to git
+
+  git add .
+
+- commiting 
+
+
+ git commit -m "initial commit"
+
+
+
+ - get name off the branch 
+
+    git branch
+ 
+
+-renaming off branch 
+
+   git branch -m master main
+
+
+
+
+
